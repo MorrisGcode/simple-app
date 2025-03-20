@@ -13,7 +13,7 @@ import Science from "./pages/Science";
 function App() {
   return (
     <>
-      <Nav />
+      <Nav/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
