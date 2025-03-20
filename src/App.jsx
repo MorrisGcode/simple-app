@@ -4,16 +4,18 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
-import Nav from "./pages/nav";
-import Foot from "./pages/foot";
+import Nav from "./pages/Nav";
+import Foot from "./pages/Foot";
 import Mathematics from "./pages/Mathematics";
 import English from "./pages/English";
 import Science from "./pages/Science";
+import Footer from "./pages/Footer";
+import Navbar from "./pages/Navbar";
 
 function App() {
   return (
     <>
-      <Nav/>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,7 +26,7 @@ function App() {
         </Route>
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Foot />
+      <Footer/>
     </>
   );
 }
